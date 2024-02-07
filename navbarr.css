@@ -225,6 +225,7 @@ body{
     margin-top:  1.2cm;
 backdrop-filter: blur(3px);
 border-radius: 10px;
+border-top  : 10px solid #1f20206c ;
 box-shadow: 0px 5px 20px rgba(7, 7, 7, 0.952);
 
 
@@ -639,7 +640,8 @@ color: rgb(255, 240, 240);
  }
     .exp2{
        
-      
+        border-top  : 10px solid #1f2020 ;
+
         height: 11cm;
         width: 50%;
         padding-right: 2cm;
@@ -671,14 +673,20 @@ color: rgb(255, 240, 240);
         color: rgb(255, 255, 255);
     }
     .t1{
+
 margin-top: 0.5cm;
-margin-left: 2cm;
+
         font-family:  sans-serif;
         font-size: 24px;
             letter-spacing: 2px;
             font-weight: bolder;
             line-height: 40px;
+            padding-right: -2cm;
+            border-bottom: 5px solid rgb(7, 7, 7) ;
 
+padding: 5px; 
+display: inline-block;
+margin-left: 2cm;
 
     }
     .t2{
@@ -688,6 +696,7 @@ margin-left: 2cm;
             
             line-height: 20px;
             margin-left: 2cm;
+
     }
 
     .exp31{
@@ -831,6 +840,7 @@ justify-content: center;
     width: 80%;
     margin-top: 2.5cm;
     display: flex;
+    border-top  : 10px solid #1f2020 ;
 
 
   
@@ -849,6 +859,7 @@ justify-content: center;
         margin-left: 1cm;
      }
      .detailmap{
+        border-top  : 10px solid #1f2020 ;
 
         height: 8.5cm;
         width: 11cm;
@@ -860,7 +871,7 @@ justify-content: center;
         backdrop-filter: blur(20px);
         box-shadow: 0px 1px 10px rgba(7, 7, 7, 0.952);
         border-radius: 10px;
-         
+        
          color: rgb(255, 255, 255);
 
      }
@@ -966,6 +977,7 @@ width: 1cm;
     font-weight: bold;
     text-decoration: none;
     color:  rgb(112, 248, 253);
+    border-bottom: 1px solid  rgba(112, 248, 253, 0.496);  ;
 
  }  
    
