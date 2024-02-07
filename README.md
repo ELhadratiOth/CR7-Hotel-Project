@@ -2,14 +2,15 @@
 # PROJECT TITLE : ID1-DISTRO
 
 
-## WebSite Link : 
-(using Github Hosting)
+## WebSite Link :
 
+➤ i used Github Pages for Hosting this Website 
+Here is the link : 
 ```bash
 https://elhadratioth.github.io/CR7-Hotel-Project/ 
 
 ```
-it's better to open it in google chrome browser in your PC for a better visualisation
+➤ it's better to open it in google chrome browser in your PC for a better visualisation
 
 ## Demo
 
