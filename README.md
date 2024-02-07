@@ -9,6 +9,8 @@
 https://elhadratioth.github.io/CR7-Hotel-Project/ 
 
 ```
+it's better to open it in google chrome browser in your PC for a better visualisation
+
 ## Demo
 
 
