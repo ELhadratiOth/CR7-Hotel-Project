@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "database";
+$database = "database_client";
 
 // Create a connection to the MySQL database
 $conn = new mysqli($servername, $username, $password, $database);
@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
 
     // Insert the data into the "users" table
-    $sql = "INSERT INTO users (email, password) VALUES ('$email', '$hashedPassword')";
+    $sql = "INSERT INTO data_client (email, password) VALUES ('$email', '$hashedPassword')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Record inserted successfully!";
