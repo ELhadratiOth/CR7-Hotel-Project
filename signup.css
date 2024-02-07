@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: brown;
 }
 /*  navbar */
 .body1{
@@ -846,6 +845,8 @@ margin-top: 2cm;
      }
      .detailmap{
 background-color: cornflowerblue;
+
+
 height: 10cm;
         width: 11cm;
         margin-left: 3.5cm;
