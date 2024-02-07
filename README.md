@@ -1,5 +1,5 @@
 
-# PROJECT TITLE : ID1-DISTRO
+# PROJECT TITLE : Hotel Interface 
 
 
 ## WebSite Link :
@@ -10,7 +10,7 @@ Here is the link :
 https://elhadratioth.github.io/CR7-Hotel-Project/ 
 
 ```
-➤ it's better to open it in google chrome browser in your PC for a better visualisation
+➤ it's better to open it in google chrome browser in your PC for a better visualisation.
 
 ## Demo
 
