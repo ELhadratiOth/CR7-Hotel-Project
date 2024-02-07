@@ -28,6 +28,7 @@ body{
     display: flex; 
     padding-left: 5cm;
     margin-top: -13px;
+
 }
 .nav3{
     height: 2.65cm;
@@ -48,13 +49,13 @@ body{
     color:  rgb(255, 255, 255);
 }
 .p1:after{
-    content:  "";
-    position: absolute;
+    content:" ";
+    position: fixed;
     background-color: #57e7cf;
     height: 3px;
     width: 0%;
-    right : 107px;
-    bottom:640px ;
+    right : 100px;
+    bottom:680px ;
     transition: 0.5s;
 }
 .p12{
@@ -73,13 +74,13 @@ body{
     color: rgb(255, 255, 255);
 }
 .p2:after{
-    content:  "";
-    position: absolute;
+    content:"";
+    position: fixed;
     background-color: #57e7cf;
     height: 3px;
     width: 0%;
-    right : 287px;
-    bottom:640px ;
+    right : 280px;
+    bottom:680px ;
     transition: 0.5s;
 }
 .p3{
@@ -96,12 +97,12 @@ body{
 }
 .p3:after{
     content:  "";
-    position: absolute;
+    position: fixed;
     background-color: #57e7cf;
     height: 3px;
     width: 0%;
-    right : 453px;
-    bottom:640px ;
+    right : 446px;
+    bottom:680px ;
     transition: 0.5s;
   }
   .p4{
@@ -118,12 +119,12 @@ body{
 }
 .p4:after{
     content:  "";
-    position: absolute;
+    position: fixed;
     background-color:  #57e7cf;
     height: 3px;
     width: 0%;
-    right : 563px;
-    bottom:640px ;
+    right : 556px;
+    bottom:680px ;
     transition: 0.5s;
   }
   .p5{
@@ -140,12 +141,12 @@ body{
 }
 .p5:after{
     content:  "";
-    position: absolute;
+    position: fixed;
     background-color:#57e7cf;
     height: 3px;
     width: 0%;
-    right : 676px;
-    bottom:640px ;
+    right : 669px;
+    bottom:680px ;
     transition: 0.5s;
   }
 .p5:hover:after{
