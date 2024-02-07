@@ -12,14 +12,14 @@ https://elhadratioth.github.io/CR7-Hotel-Project/
 ```
 ➤ For optimal viewing, it's recommended to open the website in Google Chrome Browser on your computer.
 
-## Demo
+## Demo :
 
 
 ![Texte alternatif](interface1.png)
 ![Texte alternatif](interface2.png)
 ![Texte alternatif](interface3.png)
     
-## Author:
+## Author :
 
 - [@ELhadratiOth](https://www.github.com/ELhadratiOth)
 
