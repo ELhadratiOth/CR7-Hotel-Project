@@ -4,13 +4,13 @@
 
 ## WebSite Link :
 
-➤ i used Github Pages for Hosting this Website 
+➤ I hosted this website using GitHub Pages.
 Here is the link : 
 ```bash
 https://elhadratioth.github.io/CR7-Hotel-Project/ 
 
 ```
-➤ it's better to open it in google chrome browser in your PC for a better visualisation.
+➤ For optimal viewing, it's recommended to open the website in Google Chrome Browser on your computer.
 
 ## Demo
 
