@@ -10,7 +10,6 @@ Here is the link :
 https://elhadratioth.github.io/CR7-Hotel-Project/ 
 
 ```
-➤ For optimal viewing, it's recommended to open the website in Google Chrome Browser on your computer.
 
 ## Demo :
 
@@ -18,6 +17,9 @@ https://elhadratioth.github.io/CR7-Hotel-Project/
 ![Texte alternatif](interface1.png)
 ![Texte alternatif](interface2.png)
 ![Texte alternatif](interface3.png)
+![Texte alternatif](interface4.png)
+
+
     
 ## Author :
 
