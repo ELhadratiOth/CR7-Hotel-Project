@@ -1,32 +1,27 @@
 <?php
-// Assuming you have a MySQL database named "your_database" with a table named "users"
+
 $servername = "localhost";
 $username = "root";
 $password = "";
 $database = "database_client";
 
-// Create a connection to the MySQL database
 $conn = new mysqli($servername, $username, $password, $database);
 
-// Check the connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Collecting data from the form
+    $username = $_POST["full_name"];
+    $phonenumber = $_POST["phone_number"];
     $email = $_POST["email"];
     $password = $_POST["password"];
+    $username = mysqli_real_escape_string($conn, $username);
+    $phonenumber = mysqli_real_escape_string($conn, $phonenumber);
 
-    // Validate and sanitize the input (for security)
     $email = mysqli_real_escape_string($conn, $email);
     $password = mysqli_real_escape_string($conn, $password);
-
-    // Hash the password for security (use a stronger hashing algorithm in production)
-    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-
-    // Insert the data into the "users" table
-    $sql = "INSERT INTO data_client (email, password) VALUES ('$email', '$hashedPassword')";
+    $sql = "INSERT INTO data_client (full_name,phone_number,email, password) VALUES ('$username','$phonenumber','$email', '$password')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Record inserted successfully!";
@@ -34,10 +29,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
 } else {
-    // Redirect or handle the case where the form wasn't submitted
     echo "Form not submitted!";
 }
-
-// Close the database connection
 $conn->close();
+
+
+header("Location: registration.html");
+
 ?>

@@ -1,3 +1,10 @@
+<?php 
+session_start();
+
+if (isset($_SESSION['password']) && isset($_SESSION['email'])) {
+
+ ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,15 +48,21 @@
      <a class="p2" href="https://2cm.es/tOdf"  >EAT & DRINK</a>
      <a class="p1" href="https://2cm.es/tOdf"  > <span class="p12">|</span>&nbsp; &nbsp;CONTACT US</a>
     </div>
-<div class="nav3">
-   <a href="index.html">
+<div class="nav3-3">
+   <a href="nothing yet">
     <script  src="https://cdn.lordicon.com/bhenfmcm.js"></script>
-<lord-icon class="user"
+<lord-icon class="user1-1"
     src="https://cdn.lordicon.com/gmtgcjnx.json"
     trigger="hover"
     colors="primary:#09ffd6,secondary:rgb(255, 255, 255)">
     
 </lord-icon></a>
+<div class="desc2-2">
+
+    <span class="username-decoration">
+    <?php echo $_SESSION['full_name']; ?>
+    </span>
+</div>
 </div>
 </div>
 
@@ -61,36 +74,7 @@
     <span class="hotel">PESTANA CR7 HAWAÏ </span><br>
     <span class="dis"> Lifestyle Hotels</span></p>
 </div>
-<div class="desc2">
-<div class="booking">
-     LOGIN
-</div>
-<div class="cordonn"  >
-  <form action="verification.php" method="post">
-    <input class="password" type="email" name="email"  required placeholder="Email" > <br> <br>
-    <input class="password" type="password" name="password" required  placeholder="Password"  > <br> <br>
-    <a class="btn" href="none"> <button class="button"  > CONFIRM </button></a>
-   </form>
-   
-</div>
-<div class="signup1">
-Don't have an account ?
-</div>
-<div class="signup2" >
-<span class="sign" onclick="window.location.href='data_insert.html'"> Sign up</span>&nbsp; here
-</div>
-<div class="signup3" >
-     Login with
-    </div>
-<div class="sm">
-   <a class="smlink" href="https://www.facebook.com" > 
-    <img class="sm1" src="github.png" alt="dz\d">
-    <img class="sm1" src="fb.png" alt="dz\d">
-    <img class="sm1" src="gg.png" alt="dz\d">
-    <img class="sm1" src="ig.png" alt="dz\d"></a>
-</div>
 
-</div>
 </div>
 </div>
 
@@ -279,6 +263,9 @@ Don't have an account ?
 
 </body>
 </html>
-
-
-
+<?php 
+}else{
+     header("Location: index.html");
+     exit();
+}
+ ?>
