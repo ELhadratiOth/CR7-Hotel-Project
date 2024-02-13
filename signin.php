@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
+try{
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST["full_name"];
     $phonenumber = $_POST["phone_number"];
@@ -32,8 +32,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Form not submitted!";
 }
 $conn->close();
-
-
 header("Location: registration.html");
+
+ }
+ catch(Exception $e) {
+    header("Location: data_insert.html?error=Incorrect%20Username%20or%20Password");
+    exit();
+
+
+ }
+
 
 ?>
