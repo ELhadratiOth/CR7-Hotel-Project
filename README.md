@@ -14,10 +14,14 @@ https://elhadratioth.github.io/CR7-Hotel-Project/
 ## Demo :
 
 
-![Texte alternatif](interface1.png)
-![Texte alternatif](interface2.png)
-![Texte alternatif](interface3.png)
-![Texte alternatif](interface4.png)
+![Texte alternatif](Readme_Dir/interface1.png)
+![Texte alternatif](Readme_Dir/interface2.png)
+![Texte alternatif](Readme_Dir/interface3.png)
+![Texte alternatif](Readme_Dir/interface4.png)
+![Texte alternatif](Readme_Dir/signup1.png)
+![Texte alternatif](Readme_Dir/signup2.png)
+![Texte alternatif](Readme_Dir/login1.png)
+
 
 
     
