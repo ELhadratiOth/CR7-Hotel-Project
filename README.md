@@ -4,12 +4,16 @@
 
 ## WebSite Link :
 
-➤ I hosted this website using GitHub Pages.
-Here is the link : 
+➤ I hosted this website using a Hosting Platform .
+Here is the link  :
+```bash
+http://cr7-hotel.unaux.com
+```
 ```bash
 https://elhadratioth.github.io/CR7-Hotel-Project/ 
-
 ```
+
+
 
 ## Demo :
 
