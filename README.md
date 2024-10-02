@@ -1,9 +1,6 @@
 
 # PROJECT TITLE : Hotel Landing Page 
 
-
-## WebSite Link :
-
 ➤ Check it:
 ```bash
 http://cr7-hotel.unaux.com
