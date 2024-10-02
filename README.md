@@ -1,11 +1,10 @@
 
-# PROJECT TITLE : Hotel Interface 
+# PROJECT TITLE : Hotel Landing Page 
 
 
 ## WebSite Link :
 
-➤ I hosted this website using a Hosting Platform .
-Here is the link  :
+➤ Check it:
 ```bash
 http://cr7-hotel.unaux.com
 ```
